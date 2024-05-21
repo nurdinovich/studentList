@@ -5,6 +5,7 @@ import { Button, Table, Modal, Form } from 'react-bootstrap';
 import fetchUsers, { addUser, deleteUser } from '../../store/reducers/userCreator';
 import classes from './StudentList.module.css';
 import back from './img/back.svg';
+import Profile from '../Register/Profile';
 
 
 const StudentList = () => {
@@ -73,6 +74,7 @@ const StudentList = () => {
       <div className={classes.header}>
         <h1>Students List</h1>
         <button onClick={() => setShowModal(true)}>ADD NEW STUDENT</button>
+        <Profile/>
       </div>
       <hr />
       <div className={classes.container}>
@@ -92,7 +94,6 @@ const StudentList = () => {
         {isLoadingUsers && 'Loading....'}
         {usersError && usersError}
       </div>
-
       <Modal show={showModal} onHide={() => setShowModal(false)}>
         <Modal.Header closeButton>
           <Modal.Title>Add New Student</Modal.Title>
@@ -166,6 +167,7 @@ const StudentList = () => {
           <Button variant="primary" onClick={onAddStudent}>Add Student</Button>
         </Modal.Footer>
       </Modal>
+
     </div>
   );
 };

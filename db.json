@@ -43,16 +43,7 @@
       "number": "813-602-1135",
       "admission": 18589,
       "phone": "1-545-616-0228 x147",
-      "id": "3"
-    },
-    {
-      "name": "Daugherty",
-      "email": "Alice_Stoltenberg@hotmail.com",
-      "img": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/574.jpg",
-      "number": "864-759-6870",
-      "admission": 67890,
-      "phone": "665-857-1445 x89766",
-      "id": "4"
+      "id": "10"
     },
     {
       "name": "Bechtelar",
@@ -73,15 +64,6 @@
       "id": "6"
     },
     {
-      "name": "Lubowitz",
-      "email": "Derek_Strosin@yahoo.com",
-      "img": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/738.jpg",
-      "number": "430-752-3052",
-      "admission": 13537,
-      "phone": "(610) 779-6452 x278",
-      "id": "7"
-    },
-    {
       "name": "Ernser",
       "email": "Roscoe77@gmail.com",
       "img": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/2.jpg",
@@ -97,16 +79,26 @@
       "number": "299-447-9513",
       "admission": 89506,
       "phone": "240-551-8437",
-      "id": "9"
+      "id": "11"
+    }
+  ],
+  "register": [
+    {
+      "id": "2188",
+      "username": "nurseiit",
+      "password": "nurdinovich"
     },
     {
-      "name": "Greenholt",
-      "email": "Rollin_Hamill@gmail.com",
-      "img": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/820.jpg",
-      "number": "666-504-6875",
-      "admission": 38016,
-      "phone": "807-730-5249 x355",
-      "id": "10"
+      "id": "65b9",
+      "username": "Zuura",
+      "password": "zuura"
+    }
+  ],
+  "login": [
+    {
+      "id": "48ce",
+      "username": "nureiit",
+      "password": "nurdinovich"
     }
   ]
 }
